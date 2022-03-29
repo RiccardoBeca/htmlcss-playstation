@@ -20,3 +20,24 @@
   width: 60%;
   margin: 0 auto;
 }
+
+/* right side header custom */
+.rb-no-style {
+  list-style: none;
+  text-decoration: none;
+}
+
+.rb-no-style .nav-link {
+  color:black;
+}
+
+.rb-no-style .nav-link:hover {
+  color:black;
+}
+
+.rb-no-style img {
+  width: 30px;
+}
+
+/* /right side header custom */
+

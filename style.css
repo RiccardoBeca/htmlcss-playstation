@@ -6,5 +6,19 @@ header {
   z-index: 999;
 }
 
+.rb-header-top {
+  height: 30px;
+  background-color: black;
+}
+
+.rb-header-top img {
+  height: 80%;
+  width: 100px;
+}
+
+.rb-header-btm {
+  background-color: white;
+}
+
 /* /HEADER */
 
