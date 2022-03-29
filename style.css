@@ -22,3 +22,26 @@ header {
 
 /* /HEADER */
 
+
+/* JUMBOTRON */
+
+.jumbotron {
+  height: 500px;
+  background-image: url(img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.jumbotron img {
+  width: 200px
+}
+
+/* JUMBOTRON */
+
+/* SECTION 1 */
+
+
+
+/* /SECTION 1 */
+
