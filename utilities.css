@@ -1,0 +1,22 @@
+.debug {
+  background-color: rgba(95, 158, 160, .5);
+  border:1px solid black;
+  min-height: 100px;
+}
+
+.dbg-xl {
+  background-color: rgba(95, 158, 160, .4);
+  border:1px solid black;
+  min-height: 500px;
+}
+
+.w-90-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.w-60-container {
+  width: 60%;
+  margin: 0 auto;
+}
