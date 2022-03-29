@@ -26,7 +26,7 @@ header {
 /* JUMBOTRON */
 
 .jumbotron {
-  height: 500px;
+  height: 600px;
   background-image: url(img/jumbo-bg.png);
   background-size: cover;
   background-position: center;
@@ -41,7 +41,17 @@ header {
 
 /* SECTION 1 */
 
+#section-1 p:first-child {
+  color:rgb(62, 148, 218); 
+}
 
+#section-1 h2 {
+  color:black;
+}
+
+#section-1 p:last-child {
+  color:rgb(111, 111, 111); 
+}
 
 /* /SECTION 1 */
 
