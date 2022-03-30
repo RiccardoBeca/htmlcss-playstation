@@ -11,6 +11,8 @@ header {
   background-color: black;
 }
 
+
+
 .rb-header-top img {
   height: 80%;
   width: 100px;
@@ -21,7 +23,29 @@ header {
   background-color: white !important;
 }
 
+/* right side header custom */
+.rb-no-style {
+  list-style: none;
+  text-decoration: none;
+}
 
+.rb-no-style .nav-link {
+  color:black;
+}
+
+.rb-no-style .nav-link:hover {
+  color:black;
+}
+
+.rb-no-style img {
+  width: 30px;
+}
+
+#rb-log-in-btn {
+  border-radius: 1.25rem !important;
+}
+
+/* /right side header custom */
 
 /* /HEADER */
 
@@ -56,12 +80,32 @@ header {
   color:rgb(111, 111, 111); 
 }
 
+.rb-card-border:hover {
+  border: 2px solid rgb(0, 102, 202);
+  border-radius: 10px;
+  transition: 0.5;
+}
+
+.rb-lift-up {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.rb-lift-up:hover {
+  top: -10px;
+}
+
+
 /* /SECTION 1 */
 
 
 /* SECTION 2 */
 
+.rb-border-bottom:hover {
+  border-bottom: 3px solid rgb(0, 102, 202);
+  transition: 0.5;
 
+}
 
 
 /* /SECTION 2 */
@@ -148,6 +192,20 @@ header {
 }
 
 
-
-
 /* /SECTION 8 */
+
+footer {
+  background-color: rgb(0, 67, 156);
+}
+
+footer .rb-ps-logo{
+  width: 70px;
+}
+
+footer img:nth-of-type(2) {
+  width: 20px;
+}
+
+footer .rb-sie-logo {
+  width: 100px;
+}
