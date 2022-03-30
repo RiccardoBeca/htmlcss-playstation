@@ -16,9 +16,12 @@ header {
   width: 100px;
 }
 
-.rb-header-btm {
-  background-color: white;
+.rb-header-btm,
+.rb-header-btm .navbar {
+  background-color: white !important;
 }
+
+
 
 /* /HEADER */
 
@@ -55,3 +58,38 @@ header {
 
 /* /SECTION 1 */
 
+
+/* SECTION 2 */
+
+
+
+
+/* /SECTION 2 */
+
+/* SECTION 3 */
+
+.rb-section-3 {
+  height: 600px;
+  background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.rb-section-3 img {
+  width: 200px
+}
+
+/* /SECTION 3 */
+
+/* SECTION 4 */
+/* /SECTION 4 */
+
+/* SECTION 5 */
+/* /SECTION 5 */
+
+/* SECTION 6 */
+/* /SECTION 6 */
+
+/* SECTION 7 */
+/* /SECTION 7 */
