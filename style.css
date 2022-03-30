@@ -121,4 +121,33 @@ header {
 /* /SECTION 6 */
 
 /* SECTION 7 */
+
+
+
 /* /SECTION 7 */
+
+
+/* SECTION 8 */
+
+#section-8 {
+  background-color: rgb(22, 28, 59);
+  height: 300px;
+}
+
+#section-8 p {
+  color: white;
+}
+
+#section-8 .rb-col-1-img {
+  width: 300px;
+  
+}
+
+.rb-col-2-img {
+  width: 300px;
+}
+
+
+
+
+/* /SECTION 8 */

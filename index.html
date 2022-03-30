@@ -128,10 +128,11 @@
 
 <!-- JUMBOTRON  -->
 <div class="jumbotron d-flex flex-column justify-content-end">
+  <div class="container"></div>
   <div class="w-90-container mb-5">
     <img class="pb-3" src="img/returnal-hero-banner-logo.png" alt="">
     <h2>Rompi il cerchio</h2>
-    <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
+    <p>Rialzati dopo ogni sconfitta e affronta una nuova <br> sfida con ogni rinascita in questo esplosivo thriller <br> fantascientifico, disponibile in esclusiva su PS5</p>
     <button>BOTTONE</button>
   </div>
 </div>
@@ -141,11 +142,10 @@
 <main>
   <!-- SECTION 1 -->
   <section id="section-1">
-    
-    <div class="w-90-container">
+    <div class="w-90-container pt-3">
       <div class="container-fluid">
         <div class="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-6 pt-3 d-flex justify-content-between">
-          <div class="col  p-1 border border-3 border-primary rounded">
+          <div class="col p-1 border border-3 border-primary rounded">
             <img class="rb-w100 rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
           </div>
           <div class="col p-1 border border-3 border-primary rounded ">
@@ -335,15 +335,23 @@
 
   <!-- SECTION 6  -->
   <section id="section-6" class="">
-    <div class="rb-section-6 d-flex flex-column justify-content-center">
+    <div class="rb-section-6 d-flex flex-column">
       <div class="w-90-container">
-        <img class="pb-3" src="img/ps-plus-logo.png" alt="">
-        <p>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi  mensili, sconti esclusivi e altro ancora.</p>
-        <button>BOTTONE</button>
+        <div class="container-fluid">
+          <div class="row row-cols-2">
+            <div class="col col-md-6">
+              <img class="pb-3 mt-5" src="img/ps-plus-logo.png" alt="">
+              <p>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, <br> giochi  mensili, sconti esclusivi e altro ancora.</p>
+              <button>BOTTONE</button>
+            </div>
+            <div class="col col-md-6 d-sm-none d-md-block">
+              <img class="rb-col-2-img" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
+            </div>
+          </div>
+        </div>
+        
       </div>
-      <!-- <div class="float-end justify-content-center">
-        <img src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
-      </div> -->
+      
     </div>
   </section>
   
@@ -373,20 +381,45 @@
 
 
   <!-- SECTION 8  -->
-  <div class="dbg-xl">
-    <div class="w-90-container debug">JUMBOTRON</div>
-  </div>
+  <section id="section-8">
+    <div class="w-90-container pt-3">
+      <div class="container-fluid">
+        <div class="row row-cols-2">
+          <div class="col col-md-6">
+            <img class="rb-col-1-img mt-4 pb-3" src="img/ps-now-logo-two-column.png" alt="">
+            <p>Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+            <button>BOTTONE</button>
+          </div>
+          <div class="col col-md-6 d-sm-none d-md-block">
+            <img class="rb-col-2-img" src="img/ps-now-april-featured-image-block.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   <!-- /SECTION 8 -->
 
   <!-- SECTION 9 -->
-  <div class="w-90-container debug">
-    <div class="w-60-container debug"></div>
-    <div class="container debug">
+  <div class="w-90-container pb-5">
+    <div class="w-60-container text-center py-5">
+      <h2>Seguici sui social media</h2>
+    </div>
+    <div class="container">
+      <div class="w-60-container"></div>
       <div class="row row-cols-2 row-cols-md-4">
-        <div class="col col debug"></div>
-        <div class="col col debug"></div>
-        <div class="col col debug"></div>
-        <div class="col col debug"></div>
+        <div class="col pt-2">
+          <img class="rb-w100" src="img/twitter.jpg" alt="">
+        </div>
+        <div class="col pt-2">
+          <img class="rb-w100" src="img/facebook.jpg" alt="">
+        </div>
+        <div class="col pt-2">
+          <img class="rb-w100" src="img/instagram.jpg" alt="">
+        </div>
+        <div class="col pt-2">
+          <img class="rb-w100" src="img/youtube.png" alt="">
+        </div>
       </div>
     </div>
   </div>
