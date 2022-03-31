@@ -36,8 +36,22 @@
   padding: 7px 10px;
 }
 
+.rb-btn.red:hover {
+  box-shadow: 0 0 0 2px rgb(205, 61, 15),
+  inset 0 0 0 2px black;
+}
 
 
+.rb-btn.blu:hover {
+  box-shadow: 0 0 0 2px rgb(45, 100, 230),
+  inset 0 0 0 2px white;
+}
+
+
+.rb-btn.explore-now:hover {
+  box-shadow: 0 0 0 2px white,
+  inset 0 0 0 2px rgb(22, 28, 59);
+}
 
 
 
