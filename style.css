@@ -11,8 +11,6 @@ header {
   background-color: black;
 }
 
-
-
 .rb-header-top img {
   height: 80%;
   width: 100px;
@@ -22,6 +20,8 @@ header {
 .rb-header-btm .navbar {
   background-color: white !important;
 }
+
+
 
 /* right side header custom */
 .rb-no-style {
@@ -34,7 +34,7 @@ header {
 }
 
 .rb-no-style .nav-link:hover {
-  color:black;
+  color:rgb(0, 112, 209) !important;
 }
 
 .rb-no-style img {
@@ -64,6 +64,14 @@ header {
   width: 200px
 }
 
+
+.rb-btn.red {
+  color: white;
+  background-color: rgb(205, 61, 15);
+}
+
+
+
 /* JUMBOTRON */
 
 /* SECTION 1 */
@@ -79,7 +87,10 @@ header {
 #section-1 p:last-child {
   color:rgb(111, 111, 111); 
 }
+.rb-card-border {
+  border: 2px solid transparent;
 
+}
 .rb-card-border:hover {
   border: 2px solid rgb(0, 102, 202);
   border-radius: 10px;
@@ -101,10 +112,22 @@ header {
 
 /* SECTION 2 */
 
+.rb-btn.blu {
+  color: white;
+  background-color:rgb(45, 100, 230);
+  width: fit-content;
+}
+
 .rb-border-bottom:hover {
   border-bottom: 3px solid rgb(0, 102, 202);
-  transition: 0.5;
+  transition: 0.5s ease-in;
+  filter: opacity(1);
+}
 
+
+.rb-border-bottom {
+  border-bottom: 3px solid transparent;
+  filter: opacity(0.4);
 }
 
 
@@ -121,8 +144,8 @@ header {
 }
 
 .rb-section-3 img {
-  width: 200px
-}
+  width: 200px;
+} 
 
 /* /SECTION 3 */
 
@@ -152,15 +175,18 @@ header {
 #section-6 {
   background-color: rgb(190, 188, 187);
 }
-.rb-section-6 {
-  height: 300px;
-}
+
 #section-6 img:first-child {
-  width: 400px;
+  width: 50%;
 }
 
 #section-6 img:last-child {
- height: 300px;
+ width: 100%;
+}
+
+.rb-btn.explore {
+  color:rgb(33, 92, 230) ;
+  background-color: rgb(217, 218, 220);
 }
 /* /SECTION 6 */
 
@@ -175,7 +201,6 @@ header {
 
 #section-8 {
   background-color: rgb(22, 28, 59);
-  height: 300px;
 }
 
 #section-8 p {
@@ -183,14 +208,18 @@ header {
 }
 
 #section-8 .rb-col-1-img {
-  width: 300px;
+  width: 50%;
   
 }
 
 .rb-col-2-img {
-  width: 300px;
+  width: 80%;
 }
 
+.rb-btn.explore-now {
+  background-color: rgb(245, 245, 245);
+  color:black;
+}
 
 /* /SECTION 8 */
 

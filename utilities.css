@@ -29,6 +29,15 @@
   margin: 0 auto;
 }
 
+.rb-btn {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 1.25rem;
+  padding: 7px 10px;
+}
+
+
+
 
 
 
