@@ -21,6 +21,10 @@ header {
   background-color: white !important;
 }
 
+li .rb-hover:hover {
+  color: rgb(0, 112, 209) !important;
+}
+
 
 
 /* right side header custom */
@@ -53,7 +57,6 @@ header {
 /* /right side header custom */
 
 /* /HEADER */
-
 
 /* JUMBOTRON */
 
@@ -94,7 +97,6 @@ header {
 }
 .rb-card-border {
   border: 2px solid transparent;
-
 }
 .rb-card-border:hover {
   border: 2px solid rgb(0, 102, 202);
@@ -103,12 +105,15 @@ header {
 }
 
 .rb-lift-up {
+  opacity: 0.8;
   position: relative;
   top: 0;
   transition: top ease 0.5s;
 }
 .rb-lift-up:hover {
   top: -10px;
+  opacity: 1;
+
 }
 
 
@@ -125,9 +130,16 @@ header {
 
 .rb-border-bottom:hover {
   border-bottom: 3px solid rgb(0, 102, 202);
-  transition: 0.5s ease-in;
+  transition: 0.8s ease;
   filter: opacity(1);
 }
+
+.rb-border-bottom:not(hover) {
+  border-bottom: 3px solid transparent;
+  filter: opacity(0.4);
+  transition: 0.5s ease;
+}
+
 
 
 .rb-border-bottom {
@@ -159,6 +171,18 @@ header {
 #rb-section-4 {
   background-color: rgb(31, 31, 31);
   color: white;
+}
+
+.rb-scale:hover {
+  transform: scale(1.1);
+  transition: .2s ease-in;
+  opacity: 1;
+}
+
+.rb-scale:not(hover) {
+  opacity: .7;
+  transform: scale(1);
+  transition: .2s ease-out;
 }
 
 /* /SECTION 4 */
